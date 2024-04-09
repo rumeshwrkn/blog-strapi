@@ -9,12 +9,17 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.10.4",
-    "@strapi/plugin-users-permissions": "4.10.4",
-    "@strapi/plugin-i18n": "4.10.4",
-    "better-sqlite3": "8.0.1"
+    "@strapi/plugin-i18n": "^4.22.1",
+    "@strapi/plugin-users-permissions": "^4.22.1",
+    "@strapi/strapi": "^4.22.0",
+    "better-sqlite3": "8.0.1",
+    "pg": "^8.11.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1",
+    "yarn": "^1.22.22"
   },
   "author": {
     "name": "A Strapi developer"
@@ -23,8 +28,9 @@
     "uuid": "2bc10c45-37a0-493a-8ac7-b5edd46f4fce"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=14.19.1 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@4.1.1"
 }
